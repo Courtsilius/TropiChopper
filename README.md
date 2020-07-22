@@ -1,5 +1,4 @@
-This fork of TreeChopper is used in our modpack ![2 Many Mods 2](https://www.curseforge.com/minecraft/modpacks/callonz-2-many-mods-2).
-
+This fork of TreeChopper is used in our modpack [2 Many Mods 2](https://www.curseforge.com/minecraft/modpacks/callonz-2-many-mods-2).
 This version allows for huge TropiCraft trees to be destroyed.
 The time it takes to destroy trees has also been reduced.
 
