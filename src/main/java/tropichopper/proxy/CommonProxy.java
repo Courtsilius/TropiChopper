@@ -96,8 +96,8 @@ public class CommonProxy {
 
             if (blockPos.equals(breakSpeed.getPos())) {
 				float lgs = m_PlayerData.get(breakSpeed.getEntityPlayer().getPersistentID()).m_LogCount;
-				if(lgs>15){lgs = 15;}
-                breakSpeed.setNewSpeed(breakSpeed.getOriginalSpeed() / ( lgs / 4.0f));
+				if(lgs>30){lgs = 30;} //limits the maximum time it takes to destroy huge trees
+                breakSpeed.setNewSpeed(breakSpeed.getOriginalSpeed() / ( lgs / 3.0f)); 
             } else {
                 breakSpeed.setNewSpeed(breakSpeed.getOriginalSpeed());
             }
